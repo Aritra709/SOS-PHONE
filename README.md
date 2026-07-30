@@ -13,19 +13,40 @@ A fully functional, custom-built mobile phone powered by Arduino. While it inclu
 * **Intuitive Interface:** Navigable UI utilizing an I2C LCD display and an I2C keypad.
 
 
-### 📸 Photos and Video demonstration:
+### 📸 Photos:
 
 <p align="center">
-  <img src="path/to/your/home-screen-screenshot.png" alt="Phone Home Screen" width="45%">
-  &nbsp; &nbsp;
-  <img src="path/to/your/sos-alert-screenshot.png" alt="SOS Alert Function" width="45%">
+ <img alt="20260730_200351" src="https://github.com/user-attachments/assets/e9f8289f-0fbb-495f-819f-9e7ddfacbaab" alt="Phone Home Screen" width="35%">
+ 
+ <p align="center">
+  <img  alt="Untitled" src="https://github.com/user-attachments/assets/da74df62-6d75-472d-aa4b-a1d00c85d06a" alt="SOS Alert Function" width="45%" />
+   &nbsp; &nbsp;
+   <img  alt="drg" src="https://github.com/user-attachments/assets/5b42868b-1b7e-485d-9e62-788b759f7e25" alt="SOS Alert Function" width="45%" />
+   <img width="1833" height="1549" alt="sef" src="https://github.com/user-attachments/assets/ff454295-ce65-4c90-a890-135b69e618aa" width="5%" />
+
+
+
 </p>
 
-### 🎥 Video Demonstration
-*(Click the image below to watch the video demonstration. Replace `YOUR_VIDEO_ID` with your actual YouTube video ID, or link directly to an MP4 file in your repo)*
+### 🎥 Video Demos:
+*(Click the image below to watch the video demonstration.)*
 
-[![SOS Phone Demonstration](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID)
-
+<p align="center">
+  <!-- BOOT Video -->
+  <a href="https://youtube.com/shorts/hF9DGpXGsvw">
+    <img src="https://github.com/user-attachments/assets/8fa3188d-1c1c-4250-b4cc-8a0855229937" alt="BOOT" width="30%">
+  </a>
+  &nbsp;
+  <!-- Call/SMS Video -->
+  <a href="https://youtube.com/shorts/Tm3HLeo2grg?feature=share">
+    <img src="https://github.com/user-attachments/assets/871e1136-ebb0-4a51-ae54-3271140e3a60" alt="Call/SMS" width="30%">
+  </a>
+  &nbsp;
+  <!-- SOS Video -->
+  <a href="https://youtube.com/shorts/WKbaUc60OSI?feature=share">
+    <img src="https://github.com/user-attachments/assets/117eee3c-9027-4770-bac7-c3eb3e3f89f5" alt="SOS" width="30%">
+  </a>
+</p>
 
 
 ## 🛠️ Hardware Components
@@ -45,20 +66,6 @@ To build this project, you will need the following components:
 * **SD Card R/W:** Any SD card reader and writer module and a tf player.
 * **Charger:** TP4056 module.
 
-## 🔌 Wiring Overview
-
-*Note: The SIM800L module can draw up to 2A during transmission. Do not power it directly from the Arduino's 5V pin. Use a dedicated buck converter or battery.*
-
-| Component | Arduino Pin | Notes |
-| :--- | :--- | :--- |
-| **SIM800L TX** | SoftwareSerial RX (e.g., Pin 10) | Requires logic level shifting if using 5V Arduino |
-| **SIM800L RX** | SoftwareSerial TX (e.g., Pin 11) | Requires logic level shifting if using 5V Arduino |
-| **NEO-6M TX** | SoftwareSerial RX (e.g., Pin 4) | Or use Hardware Serial if on Arduino Mega |
-| **NEO-6M RX** | SoftwareSerial TX (e.g., Pin 5) | |
-| **I2C Display (SDA)**| SDA (A4 on Uno/Nano) | |
-| **I2C Display (SCL)**| SCL (A5 on Uno/Nano) | |
-| **I2C Keypad (SDA)** | SDA (A4 on Uno/Nano) | Connect in parallel with Display |
-| **I2C Keypad (SCL)** | SCL (A5 on Uno/Nano) | Connect in parallel with Display |
 
 ## 💻 Software & Libraries
 
