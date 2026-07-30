@@ -11,6 +11,8 @@ A fully functional, custom-built mobile phone powered by Arduino. While it inclu
 * **Basic Telephony:** Make and receive phone calls via the GSM network.
 * **SMS Capabilities:** Send and read text messages.
 * **Intuitive Interface:** Navigable UI utilizing an I2C LCD display and an I2C keypad.
+* **Bluetooth/SD card music:** Plays music from both Bluetooth and SD Card.
+* **Game:** Can run some retro games.
 
 
 ### 📸 Photos:
